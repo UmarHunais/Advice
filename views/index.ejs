@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advice App</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <div class="logo">A</div>
+    <a href="#">Contact</a>
+    <a href="#">Features</a>
+  </div>
+
+  <main>
+    <div class="card">
+      <div class="label">HERE’S YOUR ADVICE</div>
+      <div class="advice"><%= advice %></div>
+      <form method="POST">
+        <button class="refresh-btn" type="submit">Get New Advice</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    Made with 💙 by Umar Hunais
+  </footer>
+
+</body>
+</html>
